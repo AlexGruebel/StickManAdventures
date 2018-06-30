@@ -1,0 +1,9 @@
+/home/alexander/Projects/StickManAdventure/StickManAdventureLib/obj/Debug/StickManAdventureLib.csproj.CoreCompileInputs.cache
+/home/alexander/Projects/StickManAdventure/StickManAdventureLib/bin/Debug/StickManAdventureLib.dll
+/home/alexander/Projects/StickManAdventure/StickManAdventureLib/bin/Debug/StickManAdventureLib.pdb
+/home/alexander/Projects/StickManAdventure/StickManAdventureLib/bin/Debug/MonoGame.Framework.dll
+/home/alexander/Projects/StickManAdventure/StickManAdventureLib/bin/Debug/MonoGame.Framework.xml
+/home/alexander/Projects/StickManAdventure/StickManAdventureLib/bin/Debug/MonoGame.Framework.dll.config
+/home/alexander/Projects/StickManAdventure/StickManAdventureLib/obj/Debug/StickManAdventureLib.csprojResolveAssemblyReference.cache
+/home/alexander/Projects/StickManAdventure/StickManAdventureLib/obj/Debug/StickManAdventureLib.dll
+/home/alexander/Projects/StickManAdventure/StickManAdventureLib/obj/Debug/StickManAdventureLib.pdb

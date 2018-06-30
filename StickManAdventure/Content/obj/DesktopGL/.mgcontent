@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>/home/alexander/Projects/StickManAdventure/StickManAdventure/Content/Block.png</File>
+    <File>/home/alexander/Projects/StickManAdventure/StickManAdventure/Content/StickmanSingleBackup20180818.png</File>
+    <File>/home/alexander/Projects/StickManAdventure/StickManAdventure/Content/StickmanSingle.png</File>
+    <File>/home/alexander/Projects/StickManAdventure/StickManAdventure/Content/Block10.png</File>
+  </SourceFiles>
+</SourceFileCollection>
