@@ -26,7 +26,8 @@ namespace StickManAdventureLib
 		}
 
 		public Vector2 Position => this.position;
-
+		public Vector2 Velocity => this.velocity;
+		public byte JumbCounter => this.jumbCounter;
 		public MovingObject()
 		{
 			this.jumbCounter = 0;
@@ -51,15 +52,16 @@ namespace StickManAdventureLib
 
 		public void AddY(int y)
 		{
-			this.position.Y += y;
-
+			this.position.Y += y;         
 		}
 
-
+		//int test = 0;
 		public virtual void Update()
 		{
+			Debug.WriteLine("Before Upate Position:" + this.position + " " + this.Velocity);
 			this.position += this.velocity;
-			SetPositionRectangle((int)position.X, (int)position.Y);
+			SetPositionRectangle((int)position.X, (int)position.Y);         
+			Debug.WriteLine("After Upate Position:" + this.position + " " + this.Velocity);
 			velocity.Y = 5 * this.speedR.Y;
 			velocity.X = 0;
 
@@ -78,10 +80,11 @@ namespace StickManAdventureLib
               
 		public virtual void Collision(CollisionObject collisionObject, int xMax, int yMax)
 		{
-			Rectangle rectangleToTouch = collisionObject.Rectangle;
-            //Replace with case when?
-			bool collide = false;
-
+			//Rectangle rectangleToTouch = collisionObject.Rectangle;
+			//Replace with case when?
+			collisionObject.Collide(this);
+			//test = 0;
+            /*
 			if (this.rectangle.TouchTopOf(rectangleToTouch))
 			{
 				SetPositionRectangle(base.rectangle.X, rectangleToTouch.Y - base.rectangle.Height);
@@ -108,7 +111,7 @@ namespace StickManAdventureLib
 				position.X = rectangleToTouch.X - this.rectangle.Width -1;                        
 				collide = true;
 			}
-
+            */
 			if (this.rectangle.Left <= 0)
 			{
 				SetPositionRectangle(1, base.rectangle.Y);            
@@ -117,7 +120,8 @@ namespace StickManAdventureLib
 			if (this.rectangle.Top <= 0)
 			{            
 				SetPositionRectangle(base.rectangle.X, 0);
-				velocity.Y = 5f * this.speedR.Y;            
+				velocity.Y = 5f * this.speedR.Y;
+				Debug.WriteLine("TOP");
 			}
 
 			if (this.rectangle.Right >= xMax)
@@ -125,12 +129,13 @@ namespace StickManAdventureLib
 				SetPositionRectangle(xMax - this.rectangle.Width, this.rectangle.Y);
 			}
 
-			if (collide) {
-				collisionObject.Collide();
-			    if (collisionObject.CollisionResult != null)
-			    {            
-				    this.velocity += collisionObject.CollisionResult.velocity;
-			    }
+			if (collisionObject.CollisionResult.Collide) 
+			{            
+				Debug.WriteLine("Before Collision"+ this.position + " " + collisionObject.CollisionResult.position + "" + collisionObject.CollisionResult.velocity + "" + this.velocity);
+				this.velocity = collisionObject.CollisionResult.velocity;            
+				this.position = collisionObject.CollisionResult.position;
+				this.jumbCounter = collisionObject.CollisionResult.jumbCounter;
+				Debug.WriteLine("After Collision" +this.position + " " + collisionObject.CollisionResult.position + "" + collisionObject.CollisionResult.velocity + "" + this.velocity);
 			}
             //Return Damage Points    ?? --> no     
 		}

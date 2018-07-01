@@ -134,14 +134,15 @@ namespace StickManAdventureLib
 
 			foreach (IUpdate toUpdate in ToUpdate)
 			{
-				toUpdate.Update();            
+				//toUpdate.Update();            
 				foreach (CollisionObject collionsObj in ((CollisionObject[]) allGameObjects
 				                                            .Except(new GameObject[] { (GameObject) toUpdate})            
 				                                            .ToArray()))
 				{
 					toUpdate.Collision(collionsObj, map.Width, map.Height);
-					camera.Update(player.Position, map.Width, map.Height);
 				}
+				camera.Update(player.Position, map.Width, map.Height);
+				toUpdate.Update();     
 			}
 
             base.Update(gameTime);

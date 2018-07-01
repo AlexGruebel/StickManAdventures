@@ -10,9 +10,18 @@ namespace StickManAdventureLib
 		{
 		}
 
-		public override void Collide()
+		public override void Collide(MovingObject movingObject)
         {
-			base.CollisionResult.spawnPoint = new Vector2(base.rectangle.X, base.rectangle.Y);
+			collisionResult.position = movingObject.Position;
+            collisionResult.velocity = movingObject.Velocity;
+            collisionResult.jumbCounter = movingObject.JumbCounter;
+
+			collisionResult.Collide = false;
+			if (movingObject.Rectangle.Intersects(this.Rectangle))
+			{
+				base.CollisionResult.spawnPoint = new Vector2(base.rectangle.X, base.rectangle.Y);
+				collisionResult.Collide = true;
+			}
         }
     }
 }

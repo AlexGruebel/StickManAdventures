@@ -27,8 +27,8 @@ namespace StickManAdventureLib
       
 		public override void Update(/*GameObject[] gameObjects, GameWindow window*/)
 		{
-			base.Update();
-
+			
+            
             //Respawn
 			if (!base.ToDo)
 			{
@@ -84,9 +84,10 @@ namespace StickManAdventureLib
 			{
 				base.AddY(-25 * (int) this.speedR.Y);
 				base.velocity.Y = 7 * (int)this.speedR.Y;
+				Debug.WriteLine(base.position + "Jumb" + base.velocity);
 				base.jumbCounter++;
 			}
-
+			base.Update();
 		}
 
 		public override void Collision(CollisionObject collisionObject, int xMax, int yMax)

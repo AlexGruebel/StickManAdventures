@@ -15,10 +15,13 @@ namespace StickManAdventureLib
 		//public  override Rectangle Rectangle { get => base.rectangle; set { base.rectangle = value; } }
 		public String contentName { get; set; }
 
-		public int SizeRelativeToWindowHeightInPerc {get;set;}      
+		public int SizeRelativeToWindowHeightInPerc {get;set;}
 
-		public virtual void Draw(SpriteBatch spriteBatch) 
-		    => spriteBatch.Draw(texture, Rectangle, Color.White);
+		public virtual void Draw(SpriteBatch spriteBatch)
+		{
+			spriteBatch.Draw(texture, Rectangle, Color.White);
+			//spriteBatch.DrawString(null, rectangle.X + "x" + rectangle.Y, new Vector2(rectangle.X, rectangle.Y - 2), Color.Red);
+        }
 
 
 		public int MinX { get => this.Rectangle.X; }
