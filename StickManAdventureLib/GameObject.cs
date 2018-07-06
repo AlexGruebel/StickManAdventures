@@ -32,7 +32,9 @@ namespace StickManAdventureLib
 
 		public virtual bool ToDo => true;
 
-		public void LoadContent(ContentManager content)
+		public GameState gameState => GameState.InGamePlaying;
+
+		public virtual void LoadContent(ContentManager content)
 		{
 			//Debug.WriteLine(this.contentName);
 			this.texture = content.Load<Texture2D>(this.contentName);	
@@ -48,8 +50,9 @@ namespace StickManAdventureLib
 		{
 			//Achtung: minimale Rundungsfehler können auftreten
 			int height = (int)((window.ClientBounds.Height / 100.00) * (double)SizeRelativeToWindowHeightInPerc);
-			Debug.WriteLine("SetSizeToWindow");
 			this.SetSize((int)((double)(texture.Width / (double)texture.Height) * (double)height), height);         
 		}
+
+
 	}
 }

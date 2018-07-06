@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 
-namespace StickManAdventureLib
+namespace StickManAdventureLib.Blocks
 {
 	public class SpawnPoint : MapObject
     {
@@ -10,7 +10,7 @@ namespace StickManAdventureLib
 		{
 		}
 
-		public override void Collide(MovingObject movingObject)
+		public override void Collide(MovingObject movingObject, GameTime gameTime)
         {
 			collisionResult.position = movingObject.Position;
             collisionResult.velocity = movingObject.Velocity;

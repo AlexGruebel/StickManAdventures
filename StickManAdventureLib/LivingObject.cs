@@ -15,42 +15,48 @@ namespace StickManAdventureLib
 
 		public int Health => this.health;
 
-		private Vector2 _spawnPoint;
-		public Vector2 SpawnPoint => this._spawnPoint;
+		protected Vector2 spawnPoint;
+		public Vector2 SpawnPoint => this.spawnPoint;
 
 		public LivingObject(int health, Vector2 spawnPoint)
 		{
 			this.health = health;
-			this._spawnPoint = spawnPoint;
+			this.spawnPoint = spawnPoint;
 		}
 
-
-        //private?
-        /*
-		public void GetHit()
+		public override void SetSizeToWindow(GameWindow window)
 		{
-			this._health--;
-			if (this._health == 0)
-			{
-				this._isAlive = false;
-			}
+			base.SetSizeToWindow(window);
+			this.spawnPoint.Y = (this.spawnPoint.Y / (float)this.lastWindowHeight) * (float)window.ClientBounds.Height;
+			this.spawnPoint.X = (this.spawnPoint.X / (float)this.lastWindowHeight) * (float)window.ClientBounds.Height;
 		}
-        */
-		public override void Collision(CollisionObject collisionObject, int xMax, int yMax)
+
+		public override void Collision(CollisionObject collisionObject, int xMax, int yMax, GameTime gameTime)
 		{
-			base.Collision(collisionObject, xMax, yMax);
+			base.Collision(collisionObject, xMax, yMax, gameTime);
 			if (base.Rectangle.Top >= yMax)
 			{
 				this.health = 0;
 			}
-			this.health -= collisionObject.CollisionResult.damage;
-			//only a player can respawn... Moving it to PlayerObject?
-			if ((int) collisionObject.CollisionResult.spawnPoint.X > (int) this.SpawnPoint.X)
+
+			if (collisionObject.CollisionResult.Collide)
 			{
-				this._spawnPoint.X = collisionObject.CollisionResult.spawnPoint.X;
-				this._spawnPoint.Y = collisionObject.CollisionResult.spawnPoint.Y - this.rectangle.Height;
+				this.health -= collisionObject.CollisionResult.damage;
+				//only a player can respawn... Moving it to PlayerObject?
+				if ((int)collisionObject.CollisionResult.spawnPoint.X > (int)this.SpawnPoint.X)
+				{
+					this.spawnPoint.X = collisionObject.CollisionResult.spawnPoint.X;
+					this.spawnPoint.Y = collisionObject.CollisionResult.spawnPoint.Y - this.rectangle.Height;
+				}
+
+				if (!collisionObject.CollisionResult.ToDo)
+				{
+					this.health = -1;
+					Debug.WriteLine(ToDo);
+				}
 			}
 		}
-              
+        
+
 	}
 }

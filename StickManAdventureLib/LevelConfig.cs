@@ -1,11 +1,12 @@
 ﻿using System;
 using StickManAdventureLib;
+using System.Linq;
 
 namespace StickManAdventureLib
 {
-    public class LevelConfig
+	public class LevelConfig 
     {
-		public PlayerObject player
+		public PlayerObject[] players
 		{
 			get;
 			set;
@@ -16,5 +17,20 @@ namespace StickManAdventureLib
 			get;
 			set;
 		}
-    }
+
+		public LevelConfig()
+		{
+		}
+
+
+		public LevelConfig(LevelConfig config)
+		{
+			foreach (PlayerObject player in config.players)
+			{
+				player.SetStandartValues();
+			}
+			this.players = config.players;
+			this.map = config.map;
+		}
+	}
 }

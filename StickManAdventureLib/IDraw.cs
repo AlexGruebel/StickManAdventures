@@ -4,10 +4,9 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace StickManAdventureLib
 {
-	public interface IDraw : IToDo
+	public interface IDraw : IToDo, ISetSizeToWindow
     {
 		void Draw(SpriteBatch spriteBatch);
-
-		void SetSizeToWindow(GameWindow window);
+              
     }
 }

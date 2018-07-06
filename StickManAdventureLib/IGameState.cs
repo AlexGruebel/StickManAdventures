@@ -1,8 +1,8 @@
 ﻿using System;
 namespace StickManAdventureLib
 {
-	public interface IToDo : IGameState
+	public interface IGameState
     {
-		bool ToDo { get; }
+		GameState gameState { get; }
     }
 }

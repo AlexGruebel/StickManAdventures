@@ -3,6 +3,8 @@ using Microsoft.Xna.Framework.Content;
 using System.Collections.Generic;
 using Microsoft.Xna.Framework.Graphics;
 using System.Diagnostics;
+using StickManAdventureLib.Blocks;
+using System;
 
 namespace StickManAdventureLib
 {
@@ -20,7 +22,15 @@ namespace StickManAdventureLib
 		public int Width;
 		public int Height;
 
-		public Map(ref int[,] map)
+		public event EventHandler OnFinish;
+
+		public int[,] MapPlan
+		{
+			get { return this._map; }
+			set { this._map = value; }
+		}
+        
+		public Map(int[,] map)
 		{
 			//this._contentManger = contentManager;
 			this._map = map;
@@ -33,6 +43,8 @@ namespace StickManAdventureLib
 		    => ((GameObject[]) _mapObjects.ToArray());
 
 		public bool ToDo => true;
+
+		public GameState gameState => GameState.InGamePlaying;
 
 		public void GenerateMap(GameWindow window)
 		{
@@ -53,15 +65,33 @@ namespace StickManAdventureLib
 
 
                     //10 Spawnpoint
+                    /*
+                     1 Erdblock
+                     2 Grasblock
+                     3 Falle
+                     10 Zwischen Speicherpunkt
+                     20 Ziel
+                     */
                     
 					switch (_map[y, x])
 					{
 						case 1:
-							this._mapObjects.Add(new MapObject(this._contentManger, "Block", new Rectangle(x * size, y * size, size, size)));
+						case 2:
+							this._mapObjects.Add(new MapObject(this._contentManger, "Blocks/Block" + _map[y, x], new Rectangle(x * size, y * size, size, size)));
+						break;
+                        
+						case 3:
+							this._mapObjects.Add(new Trap(this._contentManger, "Blocks/Block" + _map[y, x]
+							                              , new Rectangle(x * size, y * size + ((int)(size  * 0.7)), size, ((int)(size * 0.3)))));
 							break;
+                          
 						case 10:
-							this._mapObjects.Add(new SpawnPoint(this._contentManger, "Block" + _map[y, x], new Rectangle(x * size, y * size, size, size)));
+							this._mapObjects.Add(new SpawnPoint(this._contentManger, "Blocks/Block" + _map[y, x], new Rectangle(x * size, y * size - size, size, size * 2)));
                             break;
+
+						case 20:
+							this._mapObjects.Add(new Finish(this._contentManger, "Blocks/Block" + _map[y, x], new Rectangle(x * size, y * size - size, size, size * 2), ref OnFinish));
+							break;
 					}
 				}
 			}
@@ -78,7 +108,9 @@ namespace StickManAdventureLib
 
 		public void SetSizeToWindow(GameWindow window)
 		{
-			throw new System.NotImplementedException();
+			//just for Polimorphy
+			this.GenerateMap(window);
 		}
+              
 	}
 }

@@ -1,8 +1,8 @@
 ﻿using System;
 namespace StickManAdventureLib
 {
-	public interface IToDo : IGameState
+	public class DrawOnScreen : IDraw
     {
-		bool ToDo { get; }
+                 
     }
 }
