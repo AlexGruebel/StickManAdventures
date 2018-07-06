@@ -22,6 +22,7 @@ namespace StickManAdventureLib
 
 		public void Update(Vector2 position, int xOffset, int yOffset)
 		{
+			
 
 			if (position.X < _viewport.Width / 2)
 			{
@@ -52,7 +53,6 @@ namespace StickManAdventureLib
 			this._transform = Matrix.CreateTranslation(new Vector3(-_center.X + (_viewport.Width / 2),
 													   -_center.Y + (_viewport.Height / 2),
 			                                                       0));
-		}
-
+		}      
     }
 }
