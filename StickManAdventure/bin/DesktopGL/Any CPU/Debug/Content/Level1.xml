@@ -1,0 +1,637 @@
+﻿<?xml version="1.0"?>
+<data><version>3.0</version>
+<b>
+<s1>
+<b t="30" l="1">
+<c>
+<b>
+<s1>
+<p t="18">StickManAdventure.Desktop</p>
+</s1>
+<r i="1"/>
+<s1>
+<p t="18">/home/alexander/Projects/StickManAdventure/StickManAdventure/bin/DesktopGL/Any CPU/Debug/StickManAdventure.Desktop.exe</p>
+</s1>
+<r i="2"/>
+<s1>
+<p t="18">StickManAdventure.Desktop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</p>
+</s1>
+<r i="3"/>
+</b>
+</c>
+</b>
+</s1>
+<r i="0"/>
+</b>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Vector2, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="2">
+<c>
+<p>X</p>
+<p>Y</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Input.Keys, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="1">
+<c>
+<p>value__</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>StickManAdventureLib.ControllsConfig, StickManAdventureLib, Version=1.0.6756.39022, Culture=neutral, PublicKeyToken=null</p>
+<z/>
+<b l="3">
+<c>
+<p>GoLeft</p>
+<p>GoRight</p>
+<p>Jumb</p>
+</c>
+</b>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Point, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="2">
+<c>
+<p>X</p>
+<p>Y</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Rectangle, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="4">
+<c>
+<p>X</p>
+<p>Y</p>
+<p>Width</p>
+<p>Height</p>
+</c>
+</b>
+<b l="2">
+<c>
+<p>Location</p>
+<p>Size</p>
+</c>
+</b>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.TextureCollection, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<z/>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.SamplerStateCollection, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<z/>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.GraphicsAdapter, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<z/>
+<b l="1">
+<c>
+<p>Description</p>
+</c>
+</b>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.GraphicsMetrics, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<z/>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.CullMode, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="1">
+<c>
+<p>value__</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.FillMode, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="1">
+<c>
+<p>value__</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.RasterizerState, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<z/>
+<b l="10">
+<c>
+<p>CullMode</p>
+<p>DepthBias</p>
+<p>FillMode</p>
+<p>MultiSampleAntiAlias</p>
+<p>ScissorTestEnable</p>
+<p>SlopeScaleDepthBias</p>
+<p>DepthClipEnable</p>
+<p>GraphicsDevice</p>
+<p>Name</p>
+<p>Tag</p>
+</c>
+</b>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Color, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<z/>
+<b l="5">
+<c>
+<p>B</p>
+<p>G</p>
+<p>R</p>
+<p>A</p>
+<p>PackedValue</p>
+</c>
+</b>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.BlendFunction, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="1">
+<c>
+<p>value__</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.Blend, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="1">
+<c>
+<p>value__</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.ColorWriteChannels, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="1">
+<c>
+<p>value__</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.BlendState, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<z/>
+<b l="16">
+<c>
+<p>AlphaBlendFunction</p>
+<p>AlphaDestinationBlend</p>
+<p>AlphaSourceBlend</p>
+<p>ColorBlendFunction</p>
+<p>ColorDestinationBlend</p>
+<p>ColorSourceBlend</p>
+<p>ColorWriteChannels</p>
+<p>ColorWriteChannels1</p>
+<p>ColorWriteChannels2</p>
+<p>ColorWriteChannels3</p>
+<p>BlendFactor</p>
+<p>MultiSampleMask</p>
+<p>IndependentBlendEnable</p>
+<p>GraphicsDevice</p>
+<p>Name</p>
+<p>Tag</p>
+</c>
+</b>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.StencilOperation, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="1">
+<c>
+<p>value__</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.CompareFunction, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="1">
+<c>
+<p>value__</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.DepthStencilState, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<z/>
+<b l="19">
+<c>
+<p>DepthBufferEnable</p>
+<p>DepthBufferWriteEnable</p>
+<p>CounterClockwiseStencilDepthBufferFail</p>
+<p>CounterClockwiseStencilFail</p>
+<p>CounterClockwiseStencilFunction</p>
+<p>CounterClockwiseStencilPass</p>
+<p>DepthBufferFunction</p>
+<p>ReferenceStencil</p>
+<p>StencilDepthBufferFail</p>
+<p>StencilEnable</p>
+<p>StencilFail</p>
+<p>StencilFunction</p>
+<p>StencilMask</p>
+<p>StencilPass</p>
+<p>StencilWriteMask</p>
+<p>TwoSidedStencilMode</p>
+<p>GraphicsDevice</p>
+<p>Name</p>
+<p>Tag</p>
+</c>
+</b>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.SurfaceFormat, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="1">
+<c>
+<p>value__</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.DepthFormat, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="1">
+<c>
+<p>value__</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.PresentInterval, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="1">
+<c>
+<p>value__</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.DisplayOrientation, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="1">
+<c>
+<p>value__</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.RenderTargetUsage, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="1">
+<c>
+<p>value__</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.PresentationParameters, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<z/>
+<b l="9">
+<c>
+<p>BackBufferFormat</p>
+<p>BackBufferHeight</p>
+<p>BackBufferWidth</p>
+<p>DepthStencilFormat</p>
+<p>IsFullScreen</p>
+<p>MultiSampleCount</p>
+<p>PresentationInterval</p>
+<p>DisplayOrientation</p>
+<p>RenderTargetUsage</p>
+</c>
+</b>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.Viewport, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<z/>
+<b l="7">
+<c>
+<p>Height</p>
+<p>MaxDepth</p>
+<p>MinDepth</p>
+<p>Width</p>
+<p>Y</p>
+<p>X</p>
+<p>Bounds</p>
+</c>
+</b>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.BufferUsage, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="1">
+<c>
+<p>value__</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.IndexElementSize, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="1">
+<c>
+<p>value__</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.IndexBuffer, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<z/>
+<b l="6">
+<c>
+<p>BufferUsage</p>
+<p>IndexCount</p>
+<p>IndexElementSize</p>
+<p>GraphicsDevice</p>
+<p>Name</p>
+<p>Tag</p>
+</c>
+</b>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.GraphicsDevice, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<z/>
+<b l="15">
+<c>
+<p>VertexTextures</p>
+<p>VertexSamplerStates</p>
+<p>Textures</p>
+<p>SamplerStates</p>
+<p>Adapter</p>
+<p>Metrics</p>
+<p>RasterizerState</p>
+<p>BlendFactor</p>
+<p>BlendState</p>
+<p>DepthStencilState</p>
+<p>PresentationParameters</p>
+<p>Viewport</p>
+<p>ScissorRectangle</p>
+<p>Indices</p>
+<p>ResourcesLost</p>
+</c>
+</b>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>Microsoft.Xna.Framework.Graphics.Texture2D, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null</p>
+<b l="3">
+<c>
+<p>graphicsDevice</p>
+<p>height</p>
+<p>width</p>
+</c>
+</b>
+<b l="3">
+<c>
+<p>GraphicsDevice</p>
+<p>Name</p>
+<p>Tag</p>
+</c>
+</b>
+<b l="3">
+<c>
+<p>graphicsDevice</p>
+<p>width</p>
+<p>height</p>
+</c>
+</b>
+</b>
+</s0>
+<s0>
+<b>
+<p>StickManAdventureLib.PlayerObject, StickManAdventureLib, Version=1.0.6756.39022, Culture=neutral, PublicKeyToken=null</p>
+<b l="3">
+<c>
+<p>_name</p>
+<p>_spawnPoint</p>
+<p>health</p>
+</c>
+</b>
+<b l="5">
+<c>
+<p>controllsConfig</p>
+<p>Rectangle</p>
+<p>texture</p>
+<p>contentName</p>
+<p>SizeRelativeToWindowHeightInPerc</p>
+</c>
+</b>
+<b l="3">
+<c>
+<p>_spawnPoint</p>
+<p>health</p>
+<p>_name</p>
+</c>
+</b>
+</b>
+</s0>
+<s0>
+<b>
+<p>StickManAdventureLib.Map, StickManAdventureLib, Version=1.0.6756.39022, Culture=neutral, PublicKeyToken=null</p>
+<b l="2">
+<c>
+<p>Width</p>
+<p>Height</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s0>
+<b>
+<p>StickManAdventureLib.LevelConfig, StickManAdventureLib, Version=1.0.6756.39022, Culture=neutral, PublicKeyToken=null</p>
+<z/>
+<b l="2">
+<c>
+<p>player</p>
+<p>map</p>
+</c>
+</b>
+<z/>
+</b>
+</s0>
+<s1>
+<s1>
+<b t="79">
+<s1>
+<b t="77">
+<s1>
+<p t="18">Alex</p>
+</s1>
+<r i="6"/>
+<s0>
+<b>
+<p>UniversalSerializerLib3.CLRTypeConverterContainer+CLRTypeConverterContainerGeneric`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Microsoft.Xna.Framework.Vector2, MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null]], UniversalSerializer 3 for NET 4_5, Version=3.18.3.14, Culture=neutral, PublicKeyToken=null</p>
+<b l="1">
+<c>
+<p>Serialized</p>
+</c>
+</b>
+<z/>
+<z/>
+</b>
+</s0>
+<s1>
+<b t="80">
+<s1>
+<p t="18">0, 0</p>
+</s1>
+<r i="8"/>
+</b>
+</s1>
+<r i="7"/>
+<p>10</p>
+<s1>
+<b t="47">
+<b>
+<p>37</p>
+</b>
+<b>
+<p>39</p>
+</b>
+<b>
+<p>32</p>
+</b>
+</b>
+</s1>
+<r i="9"/>
+<b>
+<p>0</p>
+<p>0</p>
+<p>0</p>
+<p>0</p>
+<b>
+<p>0</p>
+<p>0</p>
+</b>
+<b>
+<p>0</p>
+<p>0</p>
+</b>
+</b>
+<z/>
+<s1>
+<p t="18">StickmanSingle</p>
+</s1>
+<r i="10"/>
+<p>17</p>
+</b>
+</s1>
+<r i="5"/>
+<s1>
+<b t="78">
+<p>0</p>
+<p>0</p>
+</b>
+</s1>
+<r i="11"/>
+</b>
+</s1>
+<r i="4"/>
+</s1>
+<end/>
+</data>

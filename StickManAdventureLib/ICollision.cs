@@ -3,8 +3,8 @@ using Microsoft.Xna.Framework;
 
 namespace StickManAdventureLib
 {
-    public interface ICollision
+    public interface ICollisiont
     {
-		void Collision(CollisionObject collisionObject, int xMax, int yMax);
+		void Collision(CollisionObject collisionObject, int xMax, int yMax, GameTime gameTime);
     }
 }
