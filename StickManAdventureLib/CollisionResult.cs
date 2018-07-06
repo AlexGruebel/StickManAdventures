@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework;
 
 namespace StickManAdventureLib
 {
-    public class CollisionResult
+	public class CollisionResult 
     {
 		private bool _collide;
 
@@ -11,15 +11,7 @@ namespace StickManAdventureLib
 		{
 			get
 			{
-				if (this._collide)
-				{
-					this._collide = !this._collide;
-					return !this._collide;
-				}
-				else
-				{
-					return this._collide;
-				}
+                return this._collide;
 			}
 
 			set
@@ -33,5 +25,6 @@ namespace StickManAdventureLib
 		public Vector2 spawnPoint;
 		public Vector2 position;
 		public byte jumbCounter;
+		public bool ToDo = true;
     }
 }
