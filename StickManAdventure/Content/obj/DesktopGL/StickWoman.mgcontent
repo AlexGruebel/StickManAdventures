@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>/home/alexander/Projects/StickManAdventure/StickManAdventure/Content/StickmanSingle.png</SourceFile>
-  <SourceTime>2018-06-18T17:47:50+02:00</SourceTime>
-  <DestFile>/home/alexander/Projects/StickManAdventure/StickManAdventure/Content/bin/DesktopGL/StickmanSingle.xnb</DestFile>
-  <DestTime>2018-07-04T10:41:54+02:00</DestTime>
+  <SourceFile>/home/alexander/Projects/StickManAdventure/StickManAdventure/Content/StickWoman.png</SourceFile>
+  <SourceTime>2018-07-04T09:58:36+02:00</SourceTime>
+  <DestFile>/home/alexander/Projects/StickManAdventure/StickManAdventure/Content/bin/DesktopGL/StickWoman.xnb</DestFile>
+  <DestTime>2018-07-04T10:41:55+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-06-05T15:24:34+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
