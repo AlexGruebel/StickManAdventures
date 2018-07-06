@@ -7,3 +7,4 @@
 /home/alexander/Projects/StickManAdventure/StickManAdventureLib/obj/Debug/StickManAdventureLib.csprojResolveAssemblyReference.cache
 /home/alexander/Projects/StickManAdventure/StickManAdventureLib/obj/Debug/StickManAdventureLib.dll
 /home/alexander/Projects/StickManAdventure/StickManAdventureLib/obj/Debug/StickManAdventureLib.pdb
+/home/alexander/Projects/StickManAdventure/StickManAdventureLib/bin/Debug/MonoGame.UI.Forms.dll

@@ -1,0 +1,7 @@
+/home/alexander/Projects/StickManAdventure/StickManAdventureLib/bin/Release/StickManAdventureLib.dll
+/home/alexander/Projects/StickManAdventure/StickManAdventureLib/bin/Release/MonoGame.Framework.dll
+/home/alexander/Projects/StickManAdventure/StickManAdventureLib/bin/Release/MonoGame.UI.Forms.dll
+/home/alexander/Projects/StickManAdventure/StickManAdventureLib/bin/Release/MonoGame.Framework.xml
+/home/alexander/Projects/StickManAdventure/StickManAdventureLib/bin/Release/MonoGame.Framework.dll.config
+/home/alexander/Projects/StickManAdventure/StickManAdventureLib/obj/Release/StickManAdventureLib.csproj.CoreCompileInputs.cache
+/home/alexander/Projects/StickManAdventure/StickManAdventureLib/obj/Release/StickManAdventureLib.dll
