@@ -1,1 +1,6 @@
 *.zargo~
+.vs
+.\StickManAdventure\bin
+.\StickManAdventure\obj
+.\StickManAdventureLib\bin
+.\StickManAdventureLib\obj
